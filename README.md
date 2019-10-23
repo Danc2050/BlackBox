@@ -5,7 +5,7 @@ without the user doing anything more than providing input and output.
 This is essentially a symbolic execution engine, but in reverse (i.e., find the correct inputs that make a program work, not break it.
 
 # What's The Point?
-The point is to, eventually, find numerical relations and/or formulas that are unknown to the scientific world. For example, if a person put in the prime numbers from 1-100 as input, and then received the desired output as prime numbers from 2-200, they may receive a formula that finds a pattern to predicting prime numbers.
+The point is to, eventually, find numerical relations and/or formulas that are unknown to the scientific world. For example, if a person put in the prime numbers from 1-100 as input, and then received the desired output as prime numbers in the range 101-200, they may receive a formula that finds a pattern to predicting prime numbers.
 
 # A Simple Example
 For example.
