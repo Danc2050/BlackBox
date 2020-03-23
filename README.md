@@ -7,6 +7,7 @@ This is essentially a symbolic execution engine, but in reverse (i.e., find the 
 # What's The Point?
 The point is to, eventually, find numerical relations and/or formulas that are unknown to the scientific world. For example, if a person put in the prime numbers from 1-100 as input, and then received the desired output as prime numbers in the range 101-200, they may receive a formula that finds a pattern to predicting prime numbers.
 
+One may argue that by creating an implementation, one already knows the outputs one would get from putting in an input. But this is not true. There are examples of mathematical models being discovered to have multiple uses when originally only one use was thought to exist [sources needed]. For example, if a set of prime numbers was put into the model, it could be the case that it would find an implementation that returned the next prime number in the sequence -- **this would be a novel discovery.**
 # A Simple Example
 For example.
 
@@ -35,7 +36,7 @@ square(x):
 	return x ** 2
 ```
 
-## Complex add-ons
+## Add-ons
 Add-ons could easily be implemented in this idea to further specify the likelihood of getting a function that a programmer wants.
 
 For example, perhaps a user could add more input and more test cases with expected output. This would prevent the program from returning
