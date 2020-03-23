@@ -32,7 +32,7 @@ mult(x):
 
 ```
 square(x):
-	return x ** x
+	return x ** 2
 ```
 
 ## Complex add-ons
